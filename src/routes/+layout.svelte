@@ -166,25 +166,25 @@
 								<h3 class="widget-title">Recent Posts</h3>
 								<ul class="widget-post cmt-recent-post-list">
 									<li>
-										<a href="blog-single.html"
+										<a href="/"
 											><img src="images/blog/b_thumbb-01.jpg" alt="post-img" /></a
 										>
 										<span class="post-date"><i class="fa fa-calendar"></i>Apr 06, 2020</span>
-										<a href="blog-single.html">Why Indian Students Choose To Study Abroad?</a>
+										<a href="/">Why Indian Students Choose To Study Abroad?</a>
 									</li>
 									<li>
-										<a href="blog-single.html"
+										<a href="/"
 											><img src="images/blog/b_thumbb-02.jpg" alt="post-img" /></a
 										>
 										<span class="post-date"><i class="fa fa-calendar"></i>Apr 24, 2020</span>
-										<a href="blog-single.html">To Improve Your Express Entry Application</a>
+										<a href="/">To Improve Your Express Entry Application</a>
 									</li>
 									<li>
-										<a href="blog-single.html"
+										<a href="/"
 											><img src="images/blog/b_thumbb-03.jpg" alt="post-img" /></a
 										>
 										<span class="post-date"><i class="fa fa-calendar"></i>Apr 24, 2020</span>
-										<a href="blog-single.html">Employment Insurance for Foreign Nationals</a>
+										<a href="/">Employment Insurance for Foreign Nationals</a>
 									</li>
 								</ul>
 							</div>
