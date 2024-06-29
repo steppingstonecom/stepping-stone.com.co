@@ -109,6 +109,9 @@ const EN = {
         }
 
 
+    },
+    FOOTER : {
+        CALL_US: 'Call Us',
     }
 
 }

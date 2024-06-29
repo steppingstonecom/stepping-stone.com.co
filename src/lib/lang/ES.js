@@ -103,6 +103,9 @@ const ES = {
             CHARACTERISTIC_2: 'Enfoque Integral',
             CHARACTERISTIC_3: 'Compromiso con el Cliente',
         }
+    },
+    FOOTER : {
+        CALL_US: 'Llámanos',
     }
 }
 export default ES

@@ -43,9 +43,7 @@
 									<a href="mailto:{INFO_COMPANY.EMAIL}">{INFO_COMPANY.EMAIL}</a>
 								</div>
 
-								<div
-									class="cmt-bg cmt-col-bgcolor-yes cmt-right-span cmt-bgcolor-skincolor pl-20"
-								>
+								<div class="cmt-bg cmt-col-bgcolor-yes cmt-right-span cmt-bgcolor-skincolor pl-20">
 									<div class="cmt-col-wrapper-bg-layer cmt-bg-layer"></div>
 									<div class="layer-content">
 										<div class="top_bar_contact_item">
@@ -76,7 +74,7 @@
 										<a class="home-link" href="/" title="Tripzia" rel="home">
 											<img
 												id="logo-img"
-												class="img-center w-[150px]" 
+												class="img-center w-[150px]"
 												style="max-width: 500px; max-height: 500px;"
 												src="/brand/logo.svg"
 												alt="logo-img"
@@ -96,18 +94,25 @@
 											<ul class="menu">
 												{#each $langStore.LANG.MENU as item}
 													<li class="mega-menu-item">
-														<a href="{item.path}" class="mega-menu-link">{item.name}</a>
+														<a href={item.path} class="mega-menu-link">{item.name}</a>
 													</li>
 												{/each}
 												<!-- svelte-ignore a11y-click-events-have-key-events -->
-												<li class="mega-menu-item flex items-center justify-center mt-4">
+												<li class="mega-menu-item mt-4 flex items-center justify-center">
 													<!-- svelte-ignore a11y-click-events-have-key-events -->
 													<!-- svelte-ignore a11y-no-noninteractive-element-interactions -->
-													<img class="w-[60px] object-contain" on:click={()=>{
-												
-															langStore.update((n) => (n.CURRENT == "EN" ? { LANG: ES, CURRENT: "ES" } : { LANG: EN, CURRENT: "EN" }));
-
-													}} src="https://i.postimg.cc/bvQY8k2d/png-transparent-translation-collins-spanish-dictionary-english-american-heritage-children-s-dictiona.png" alt="change languaje">
+													<img
+														class="w-[60px] object-contain"
+														on:click={() => {
+															langStore.update((n) =>
+																n.CURRENT == 'EN'
+																	? { LANG: ES, CURRENT: 'ES' }
+																	: { LANG: EN, CURRENT: 'EN' },
+															);
+														}}
+														src="https://i.postimg.cc/bvQY8k2d/png-transparent-translation-collins-spanish-dictionary-english-american-heritage-children-s-dictiona.png"
+														alt="change languaje"
+													/>
 												</li>
 											</ul>
 										</nav>
@@ -124,100 +129,15 @@
 			<div class="first-footer">
 				<div class="container">
 					<div class="row">
-						<div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 widget-area">
+						<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 widget-area">
 							<div class="widget widget_text mr-25 clearfix">
-								<h3 class="widget-title">About Us</h3>
+								<h3 class="widget-title">{$langStore.LANG.ABOUT.TITLE}</h3>
 								<div class="textwidget widget-text">
 									<p>
-										The Most Eminent Visas and Immigration Consultant service provider in major
-										metros and overseas with reliability since 1994. We are committed to provide
-										reliable client support.
+										{$langStore.LANG.ABOUT.SMALL_ABOUT}
 									</p>
 								</div>
 								<div class="cmt-horizontal_sep mt-25 mb-30"></div>
-								<div class="social-icons circle">
-									<ul class="list-inline cmt-textcolor-skincolor">
-										<li class="social-facebook">
-											<a class="tooltip-top" target="_blank" href="#" data-tooltip="Facebook"
-												><i class="ti ti-facebook"></i></a
-											>
-										</li>
-										<li class="social-twitter">
-											<a class="tooltip-top" target="_blank" href="#" data-tooltip="twitter"
-												><i class="ti ti-twitter-alt"></i></a
-											>
-										</li>
-										<li class="social-instagram">
-											<a class="tooltip-top" target="_blank" href="#" data-tooltip="Google"
-												><i class="ti ti-google"></i></a
-											>
-										</li>
-										<li class="social-twitter">
-											<a class="tooltip-top" target="_blank" href="#" data-tooltip="Linkedin"
-												><i class="ti ti-linkedin"></i></a
-											>
-										</li>
-									</ul>
-								</div>
-							</div>
-						</div>
-						<div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 widget-area">
-							<div class="widget widget_nav_menu clearfix">
-								<h3 class="widget-title">Visa Services</h3>
-								<ul id="menu-footer-quick-links">
-									<li><a href="#">Green card</a></li>
-									<li><a href="#">PR Applicants</a></li>
-									<li><a href="#">Visa Consultancy</a></li>
-									<li><a href="#">Travel Insurance</a></li>
-									<li><a href="#">Work Permits</a></li>
-									<li><a href="#">Abroad Study</a></li>
-									<li><a href="#">International Permit</a></li>
-								</ul>
-							</div>
-						</div>
-						<div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 widget-area">
-							<div class="widget widget-recent-post clearfix">
-								<h3 class="widget-title">Recent Posts</h3>
-								<ul class="widget-post cmt-recent-post-list">
-									<li>
-										<a href="/"
-											><img src="images/blog/b_thumbb-01.jpg" alt="post-img" /></a
-										>
-										<span class="post-date"><i class="fa fa-calendar"></i>Apr 06, 2020</span>
-										<a href="/">Why Indian Students Choose To Study Abroad?</a>
-									</li>
-									<li>
-										<a href="/"
-											><img src="images/blog/b_thumbb-02.jpg" alt="post-img" /></a
-										>
-										<span class="post-date"><i class="fa fa-calendar"></i>Apr 24, 2020</span>
-										<a href="/">To Improve Your Express Entry Application</a>
-									</li>
-									<li>
-										<a href="/"
-											><img src="images/blog/b_thumbb-03.jpg" alt="post-img" /></a
-										>
-										<span class="post-date"><i class="fa fa-calendar"></i>Apr 24, 2020</span>
-										<a href="/">Employment Insurance for Foreign Nationals</a>
-									</li>
-								</ul>
-							</div>
-						</div>
-						<div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 widget-area">
-							<div class="widget contact_map clearfix">
-								<h3 class="widget-title">Useful Links</h3>
-								<div class="footer_map mb-20">
-									<img src="images/footer_map.png" alt="" />
-								</div>
-								<ul class="widget_contact_wrapper">
-									<li>
-										<i class="cmt-textcolor-skincolor fa fa-map-marker"></i>Australia: 1234 567
-										890
-									</li>
-									<li>
-										<i class="cmt-textcolor-skincolor fa fa-map-marker"></i>Ontario: 1234 567 890
-									</li>
-								</ul>
 							</div>
 						</div>
 					</div>
@@ -239,10 +159,9 @@
 									</div>
 									<div class="featured-content">
 										<div class="featured-title">
-											<h5><a href="mailto:info@example.com">info@example.com</a></h5>
+											<h5><a href="mailto:{INFO_COMPANY.EMAIL}">{INFO_COMPANY.EMAIL}</a></h5>
 										</div>
 										<div class="featured-desc">
-											<p>Drop Us a Line</p>
 										</div>
 									</div>
 								</div>
@@ -262,10 +181,10 @@
 									</div>
 									<div class="featured-content">
 										<div class="featured-title">
-											<h5>+0 (123) 456 7890</h5>
+											<h5>{INFO_COMPANY.PHONE}</h5>
 										</div>
 										<div class="featured-desc">
-											<p>Call Us Now!</p>
+											<p>{$langStore.LANG.FOOTER.CALL_US}</p>
 										</div>
 									</div>
 								</div>
@@ -285,10 +204,10 @@
 									</div>
 									<div class="featured-content">
 										<div class="featured-title">
-											<h5>78 St. Road, NJ USA</h5>
+											<h5>{INFO_COMPANY.PHONE_SECONDARY}</h5>
 										</div>
 										<div class="featured-desc">
-											<p>Get Direction</p>
+											<p>{$langStore.LANG.FOOTER.CALL_US}</p>
 										</div>
 									</div>
 								</div>
@@ -305,19 +224,24 @@
 							<div class="copyright text-center">
 								<div id="menu-footer-menu">
 									<ul class="footer-nav-menu text-center">
-										<li><a href="#">Home</a></li>
-										<li><a href="#">About</a></li>
-										<li><a href="#">Contact Us</a></li>
+										{#each $langStore.LANG.MENU as item}
+											<li class="mega-menu-item">
+												<a href={item.path}>{item.name}</a>
+											</li>
+										{/each}
 									</ul>
 								</div>
-								<span>Copyright © 2020&nbsp;<a href="#">CHIPHYSI</a>. All rights reserved.</span>
+								<span
+									>Copyright © {new Date().getFullYear()} &nbsp;{INFO_COMPANY.APP_NAME}. All rights
+									reserved.</span
+								>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</footer>
-		<a id="totop" >
+		<a id="totop">
 			<i class="fa fa-angle-up"></i>
 		</a>
 	</div>
@@ -336,4 +260,3 @@
 	<script src="js/map.js"></script>
 	<script src="https://maps.google.com/maps/api/js?sensor=false"></script> -->
 </body>
-
