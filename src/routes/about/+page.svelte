@@ -199,7 +199,7 @@
                             </div>
                             <div class="featured-content featured-content-team">
                                 <div class="featured-title">
-                                    <h5><a href="team-details.html">Melika Fonals</a></h5>
+                                    <h5><a href="/">Melika Fonals</a></h5>
                                 </div>
                                 <div class="team-position">Migration Agent</div>
                             </div>
@@ -224,7 +224,7 @@
                             </div>
                             <div class="featured-content featured-content-team">
                                 <div class="featured-title">
-                                    <h5><a href="team-details.html">Sophia Arthur</a></h5>
+                                    <h5><a href="/">Sophia Arthur</a></h5>
                                 </div>
                                 <div class="team-position">Migration Agent</div>
                             </div>
@@ -249,7 +249,7 @@
                             </div>
                             <div class="featured-content featured-content-team">
                                 <div class="featured-title">
-                                    <h5><a href="team-details.html">Robert Walter</a></h5>
+                                    <h5><a href="/">Robert Walter</a></h5>
                                 </div>
                                 <div class="team-position">Migration Agent</div>
                             </div>
@@ -274,7 +274,7 @@
                             </div>
                             <div class="featured-content featured-content-team">
                                 <div class="featured-title">
-                                    <h5><a href="team-details.html">Michael Grey</a></h5>
+                                    <h5><a href="/">Michael Grey</a></h5>
                                 </div>
                                 <div class="team-position">Migration Agent</div>
                             </div>
@@ -299,7 +299,7 @@
                             </div>
                             <div class="featured-content featured-content-team">
                                 <div class="featured-title">
-                                    <h5><a href="team-details.html">John Doe</a></h5>
+                                    <h5><a href="/">John Doe</a></h5>
                                 </div>
                                 <div class="team-position">Migration Agent</div>
                             </div>
