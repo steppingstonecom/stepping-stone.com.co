@@ -9,7 +9,7 @@
                     </div>
                     <div class="breadcrumb-wrapper">
                         <span>
-                            <a title="Homepage" href="index.html">Home</a>
+                            <a title="Homepage" href="/">Home</a>
                         </span>
                         <span>Contact Us-1</span>
                     </div>
@@ -73,29 +73,29 @@
                                     <div class="row">
                                         <div class="col-lg-6 col-md-6">
                                             <label>
-                                                <span class="text-input"><input name="name" type="text" value="" placeholder="Your Name" required="required"></span>
+                                                <span class="text-input"><input name="name" type="text" value="" placeholder="Your Name" required={true}></span>
                                             </label>
                                         </div>
                                         <div class="col-lg-6 col-md-6">
                                             <label>
-                                                <span class="text-input"><input name="address" type="text" value="" placeholder="Your Email" required="required"></span>
+                                                <span class="text-input"><input name="address" type="text" value="" placeholder="Your Email" required={true}></span>
                                             </label>
                                         </div>
                                     </div>
                                     <div class="row">
                                         <div class="col-lg-6 col-md-6">
                                             <label>
-                                                <span class="text-input"><input name="phone" type="text" value="" placeholder="Phone Number" required="required"></span>
+                                                <span class="text-input"><input name="phone" type="text" value="" placeholder="Phone Number" required={true}></span>
                                             </label>
                                         </div>
                                         <div class="col-lg-6 col-md-6">
                                             <label>
-                                                <span class="text-input"><input name="phone" type="text" value="" placeholder="Subject" required="required"></span>
+                                                <span class="text-input"><input name="phone" type="text" value="" placeholder="Subject" required={true}></span>
                                             </label>
                                         </div>
                                     </div>
                                     <label>
-                                        <span class="text-input"><textarea name="message" rows="5" placeholder="Message" required="required"></textarea></span>
+                                        <span class="text-input"><textarea name="message" rows="5" placeholder="Message" required={true}></textarea></span>
                                     </label>
                                     <button class="submit cmt-btn cmt-btn-size-lg cmt-btn-shape-rounded cmt-btn-style-border cmt-btn-color-dark w-100" type="submit">Submit Request !</button>
                                 </form>

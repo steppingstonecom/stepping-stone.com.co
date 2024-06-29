@@ -11,7 +11,7 @@
                             </div>
                             <div class="breadcrumb-wrapper">
                                 <span>
-                                    <a title="Homepage" href="index.html">Home</a>
+                                    <a title="Homepage" href="/">Home</a>
                                 </span>
                                 <span>About Us</span>
                             </div>
