@@ -126,59 +126,6 @@
                         </div>
                     </div><!-- featured-imagebox end-->
                 </div>
-                <div class="cmt-box-col-wrapper col-lg-4">
-                    <!--featured-imagebox-->
-                    <div class="featured-imagebox featured-imagebox-country style2 bor_rad_5">
-                        <div class="cmt-box-view-content-inner">
-                            <!-- featured-thumbnail -->
-                            <div class="featured-thumbnail">
-                                <a href="#" tabindex="-1"> <img class="img-fluid"
-                                        src="images/country/country-04.jpg" alt="image"></a>
-                            </div><!-- featured-thumbnail end-->
-                            <div class="featured-content">
-                                <div class="featured-content-icon_img-block">
-                                    <img class="img-fluid" src="images/country/country-04_icon_img.jpg"
-                                        alt="image">
-                                </div>
-                                <div class="featured-title">
-                                    <h5><a href="#" tabindex="-1">United Kingdom</a></h5>
-                                </div>
-                                <div class="featured-desc">
-                                    <p>Millions of the decisions about who has the right to visit or stay.</p>
-                                </div>
-                                <a class="cmt-btn cmt-btn-size-sm btn-inline cmt-btn-color-skincolor" href="#"
-                                    tabindex="-1">Read More</a>
-                            </div>
-                        </div>
-                    </div><!-- featured-imagebox end-->
-                </div>
-                <div class="cmt-box-col-wrapper col-lg-4">
-                    <!--featured-imagebox-->
-                    <div class="featured-imagebox featured-imagebox-country style2 bor_rad_5">
-                        <div class="cmt-box-view-content-inner">
-                            <!-- featured-thumbnail -->
-                            <div class="featured-thumbnail bor_rad_5">
-                                <a href="#" tabindex="-1">
-                                    <img class="img-fluid" src="images/country/country-05.jpg" alt="image">
-                                </a>
-                            </div><!-- featured-thumbnail end-->
-                            <div class="featured-content">
-                                <div class="featured-content-icon_img-block">
-                                    <img class="img-fluid" src="images/country/country-05_icon_img.jpg"
-                                        alt="image">
-                                </div>
-                                <div class="featured-title">
-                                    <h5><a href="#" tabindex="-1">India</a></h5>
-                                </div>
-                                <div class="featured-desc">
-                                    <p>We will help you with every step of the process of immigration</p>
-                                </div>
-                                <a class="cmt-btn cmt-btn-size-sm btn-inline cmt-btn-color-skincolor" href="#"
-                                    tabindex="-1">Read More</a>
-                            </div>
-                        </div>
-                    </div><!-- featured-imagebox end-->
-                </div>
             </div><!-- row end -->
             <div class="row">
                 <div class="col-lg-12">

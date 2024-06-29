@@ -69,7 +69,7 @@
 								>
 									<!-- site-branding -->
 									<div class="site-branding">
-										<a class="home-link" href="index.html" title="Tripzia" rel="home">
+										<a class="home-link" href="/" title="Tripzia" rel="home">
 											<img
 												id="logo-img"
 												class="img-center w-[150px]" 
