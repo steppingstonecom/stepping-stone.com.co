@@ -80,7 +80,7 @@
 										</a>
 									</div>
 									<div class="widget_info mr-auto">
-										<div>Visa &amp; Immigration Consultants</div>
+										<div>{$langStore.LANG.SLOGAN}</div>
 									</div>
 									<div class="d-flex flex-row">
 										<div class="btn-show-menu-mobile menubar menubar--squeeze">
