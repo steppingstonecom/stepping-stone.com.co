@@ -25,8 +25,5 @@ export const MENU = [
     },
 ]
 export const SOCIAL = {
-    INSTAGRAM: '',
-    TIKTOK: '',
-    FACEBOOK: '',
-    WHATSAPP: '',
+    WHATSAPP: 'https://wa.me/+17782237341',
 }

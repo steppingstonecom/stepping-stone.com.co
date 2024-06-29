@@ -1,4 +1,5 @@
 <script lang="ts">
+	import ButtonWhatsApp from '$lib/components/ButtonWhatsApp.svelte';
 	import { INFO_COMPANY } from '$lib/const/INFO';
 	import langStore from '$lib/stores/langStore';
 	import './global.css';
@@ -27,6 +28,7 @@
 </head>
 
 <body>
+	<ButtonWhatsApp />
 	<div class="page">
 		<header id="masthead" class="header cmt-header-style-01">
 			<div class="top_bar cmt-bgcolor-darkgrey cmt-textcolor-white clearfix">
