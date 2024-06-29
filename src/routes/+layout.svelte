@@ -1,6 +1,8 @@
 <script lang="ts">
 	import ButtonWhatsApp from '$lib/components/ButtonWhatsApp.svelte';
 	import { INFO_COMPANY } from '$lib/const/INFO';
+	import ES from '$lib/lang/ES';
+	import EN from '$lib/lang/EN';
 	import langStore from '$lib/stores/langStore';
 	import './global.css';
 	import './tailwind.css';
@@ -97,6 +99,16 @@
 														<a href="{item.path}" class="mega-menu-link">{item.name}</a>
 													</li>
 												{/each}
+												<!-- svelte-ignore a11y-click-events-have-key-events -->
+												<li class="mega-menu-item flex items-center justify-center mt-4">
+													<!-- svelte-ignore a11y-click-events-have-key-events -->
+													<!-- svelte-ignore a11y-no-noninteractive-element-interactions -->
+													<img class="w-[60px] object-contain" on:click={()=>{
+												
+															langStore.update((n) => (n.CURRENT == "EN" ? { LANG: ES, CURRENT: "ES" } : { LANG: EN, CURRENT: "EN" }));
+
+													}} src="https://i.postimg.cc/bvQY8k2d/png-transparent-translation-collins-spanish-dictionary-english-american-heritage-children-s-dictiona.png" alt="change languaje">
+												</li>
 											</ul>
 										</nav>
 									</div>
