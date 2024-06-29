@@ -15,7 +15,7 @@
                             </div>
                             <div class="breadcrumb-wrapper">
                                 <span>
-                                    <a title="Homepage" href="/">{$langStore.LANG.HOME}</a>
+                                    <a title="Homepage" href="/">{$langStore.LANG.HOME.TITLE}</a>
                                 </span>
                                 <span>{$langStore.LANG.ABOUT.TITLE}</span>
                             </div>

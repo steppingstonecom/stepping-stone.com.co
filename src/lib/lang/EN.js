@@ -14,7 +14,31 @@ const EN = {
             path: '/contact',
         },
     ],
-    HOME: 'Home',
+    HOME: {
+        TITLE: 'Home',
+
+        BENEFITS: {
+            TITLE:'benifits of visa online',
+            TITLE_2:'coaching & preparation',
+            SUBTITLE:'value for visa coaching',
+            ONE: {
+                TITLE: 'Personalized Service',
+                TEXT: 'We offer comprehensive and personalized advice to help you find the best educational and job opportunities abroad, tailored to your needs and goals.'
+            },
+            TWO: {
+                TITLE: 'High Quality',
+                TEXT: 'Our team of experts is committed to providing high-quality services that ensure the well-being and development of our clients.'
+            },
+            THREE: {
+                TITLE: 'Experience and Knowledge',
+                TEXT: 'Our consultants have extensive experience in the field of migration and international education consulting, providing you with the support you need to achieve your goals.'
+            },
+            FOUR: {
+                TITLE: 'Comprehensive Approach',
+                TEXT: 'We offer a comprehensive approach to help you navigate the migration process and find the best educational and job opportunities abroad.'
+            },
+        }
+    },
     CONTACT: {
         TITLE: 'Contact Us',
         TITLE_FORM: 'Get In',

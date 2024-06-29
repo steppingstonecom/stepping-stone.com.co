@@ -1,4 +1,6 @@
 <script lang="ts">
+	import langStore from "$lib/stores/langStore";
+
 </script>
 
    <!-- START homemainclassicslider REVOLUTION SLIDER 6.1.0 -->
@@ -9,8 +11,8 @@
             <rs-slide data-key="rs-1" data-title="Slide1" data-thumb="images/slides/slider-mainbg-001.jpg"
                 data-anim="ei:d;eo:d;s:d;r:0;t:3dcurtain-vertical;sl:d;">
 
-                <img src="images/slides/slider-mainbg-001.jpg" title="slider-bg-image" width="1920" height="690"
-                    class="rev-slidebg" data-no-retina>
+                <img src="images/slides/slider-mainbg-001.jpg" title="slider-bg-image" alt="slider-bg-" width="1920" height="690"
+                    class="rev-slidebg">
             </rs-slide>
         </rs-slides>
         <rs-progress class="rs-bottom" style="visibility: hidden !important;"></rs-progress>
@@ -54,21 +56,21 @@
                         <div class="cmt-box-view-content-inner">
                             <!-- featured-thumbnail -->
                             <div class="featured-thumbnail">
-                                <a href="#" tabindex="-1"> <img class="img-fluid"
-                                        src="images/country/country-01.jpg" alt="image"></a>
+                                <a href="/" tabindex="-1"> <img class="img-fluid"
+                                        src="images/country/country-01.jpg" alt="iamage" ></a>
                             </div><!-- featured-thumbnail end-->
                             <div class="featured-content">
                                 <div class="featured-content-icon_img-block">
                                     <img class="img-fluid" src="images/country/country-01_icon_img.jpg"
-                                        alt="image">
+                                        alt="iamage" >
                                 </div>
                                 <div class="featured-title">
-                                    <h5><a href="#" tabindex="-1">United States</a></h5>
+                                    <h5><a href="/" tabindex="-1">United States</a></h5>
                                 </div>
                                 <div class="featured-desc">
                                     <p>We will help you in every step of the Visa application process.</p>
                                 </div>
-                                <a class="cmt-btn cmt-btn-size-sm btn-inline cmt-btn-color-skincolor" href="#"
+                                <a class="cmt-btn cmt-btn-size-sm btn-inline cmt-btn-color-skincolor" href="/"
                                     tabindex="-1">Read More</a>
                             </div>
                         </div>
@@ -80,21 +82,21 @@
                         <div class="cmt-box-view-content-inner">
                             <!-- featured-thumbnail -->
                             <div class="featured-thumbnail">
-                                <a href="#" tabindex="-1"> <img class="img-fluid"
-                                        src="images/country/country-02.jpg" alt="image"></a>
+                                <a href="/" tabindex="-1"> <img class="img-fluid"
+                                        src="images/country/country-02.jpg" alt="main"></a>
                             </div><!-- featured-thumbnail end-->
                             <div class="featured-content">
                                 <div class="featured-content-icon_img-block">
                                     <img class="img-fluid" src="images/country/country-02_icon_img.jpg"
-                                        alt="image">
+                                        alt="main">
                                 </div>
                                 <div class="featured-title">
-                                    <h5><a href="#" tabindex="-1">Australia</a></h5>
+                                    <h5><a href="/" tabindex="-1">Australia</a></h5>
                                 </div>
                                 <div class="featured-desc">
                                     <p>Applicants are of Australia, returning to live citizenship</p>
                                 </div>
-                                <a class="cmt-btn cmt-btn-size-sm btn-inline cmt-btn-color-skincolor" href="#"
+                                <a class="cmt-btn cmt-btn-size-sm btn-inline cmt-btn-color-skincolor" href="/"
                                     tabindex="-1">Read More</a>
                             </div>
                         </div>
@@ -106,21 +108,21 @@
                         <div class="cmt-box-view-content-inner">
                             <!-- featured-thumbnail -->
                             <div class="featured-thumbnail">
-                                <a href="#" tabindex="-1"> <img class="img-fluid"
-                                        src="images/country/country-03.jpg" alt="image"></a>
+                                <a href="/" tabindex="-1"> <img class="img-fluid"
+                                        src="images/country/country-03.jpg" alt="main"></a>
                             </div><!-- featured-thumbnail end-->
                             <div class="featured-content">
                                 <div class="featured-content-icon_img-block">
                                     <img class="img-fluid" src="images/country/country-03_icon_img.jpg"
-                                        alt="image">
+                                        alt="main">
                                 </div>
                                 <div class="featured-title">
-                                    <h5><a href="#" tabindex="-1">Canada</a></h5>
+                                    <h5><a href="/" tabindex="-1">Canada</a></h5>
                                 </div>
                                 <div class="featured-desc">
                                     <p>Apply to travel, study, work or immigrate citizenship or PR.</p>
                                 </div>
-                                <a class="cmt-btn cmt-btn-size-sm btn-inline cmt-btn-color-skincolor" href="#"
+                                <a class="cmt-btn cmt-btn-size-sm btn-inline cmt-btn-color-skincolor" href="/"
                                     tabindex="-1">Read More</a>
                             </div>
                         </div>
@@ -131,7 +133,7 @@
                 <div class="col-lg-12">
                     <div class="text-center mt-35 res-991-mt-20">
                         <a class="cmt-btn cmt-btn-size-md cmt-btn-shape-round cmt-btn-style-border cmt-btn-color-dark"
-                            href="#">View More country!</a>
+                            href="/">View More country!</a>
                     </div>
                 </div>
             </div>
@@ -147,13 +149,11 @@
                 <div class="col-xl-6 col-lg-6 col-md-7 col-sm-7 mx-auto">
                     <div class="d-flex cmt-boxes-spacing-20px">
                         <div class="cmt-box-col-wrapper">
-                            <!-- ttm_single_image-wrapper -->
                             <div class="ttm_single_image-wrapper">
                                 <img class="img-fluid" src="images/single-img-01.jpg" alt="single_01">
                             </div>
                         </div>
                         <div class="cmt-box-col-wrapper">
-                            <!-- ttm_single_image-wrapper -->
                             <div class="ttm_single_image-wrapper pb-20">
                                 <img class="img-fluid" src="images/single-img-02.jpg" alt="single_02">
                             </div>
@@ -165,33 +165,28 @@
                     </div>
                     <div
                         class="m-auto cmt-textcolor-white pt-15 pb-0 mt_190 pr-30 pl-30 z-index-1 cmt-bgcolor-skincolor">
-                        <a href="https://youtu.be/7e90gBu4pas" target="_self" class="cmt_prettyphoto">
                             <div class="d-flex align-items-center">
                                 <div
                                     class="cmt-icon cmt-icon_element-onlytxt cmt-icon_element-color-white cmt-icon_element-size-sm mb-15 mr-2">
-                                    <i class="ti ti-control-play"></i>
                                 </div>
-                                <h5>Working Since 1987</h5>
+                                <h5>Working Since 2024</h5>
                             </div>
-                        </a>
                     </div>
                 </div>
                 <div class="col-xl-6 col-lg-6 col-md-12 col-xs-12">
-                    <div class="pl-15 mt-15 text-left res-991-pl-0 res-991-mt-15">
+                    <div class="pl-15 mt-2 text-left res-991-pl-0 res-991-mt-15">
                         <!-- section title -->
                         <div class="section-title">
                             <div class="title-header">
-                                <h5>ABOUT consultant</h5>
-                                <h2 class="title">Immigration Services From <strong>Experienced Agents.</strong>
-                                </h2>
+                                <h5>{$langStore.LANG.ABOUT.CONSULTANT.TITLE}</h5>
+                                <h2 class="title">{$langStore.LANG.ABOUT.CONSULTANT.SUBTITLE}</h2>
                             </div>
-                            <div class="title-desc">The Most Eminent Visas and Immigration Consultant service
-                                provider. Branches in India and overseas.</div>
                         </div><!-- section title end -->
-                        <div class="pt-10 pb-35">
+                        <p>{$langStore.LANG.ABOUT.CONSULTANT.TEXT}</p>
+                        <div class="pt-10">
                             <!-- cmt-progress-bar -->
                             <div class="cmt-progress-bar" data-percent="92%">
-                                <div class="progressbar-title">Immigration Consultant</div>
+                                <div class="progressbar-title">{$langStore.LANG.ABOUT.CONSULTANT.CHARACTERISTIC_1}</div>
                                 <div class="progress-bar-inner">
                                     <div class="progress-bar progress-bar-color-bar_skincolor"></div>
                                 </div>
@@ -199,7 +194,7 @@
                             </div><!-- cmt-progress-bar end -->
                             <!-- cmt-progress-bar -->
                             <div class="cmt-progress-bar clearfix" data-percent="80%">
-                                <div class="progressbar-title">Study and work visa</div>
+                                <div class="progressbar-title">{$langStore.LANG.ABOUT.CONSULTANT.CHARACTERISTIC_2}</div>
                                 <div class="progress-bar-inner">
                                     <div class="progress-bar progress-bar-color-bar_skincolor"></div>
                                 </div>
@@ -207,17 +202,13 @@
                             </div><!-- cmt-progress-bar end -->
                             <!-- cmt-progress-bar -->
                             <div class="cmt-progress-bar clearfix" data-percent="88%">
-                                <div class="progressbar-title">buisness visit visa</div>
+                                <div class="progressbar-title">{$langStore.LANG.ABOUT.CONSULTANT.CHARACTERISTIC_3}</div>
                                 <div class="progress-bar-inner">
                                     <div class="progress-bar progress-bar-color-bar_skincolor"></div>
                                 </div>
                                 <div class="progress-bar-percent" data-percentage="88"></div>
                             </div><!-- cmt-progress-bar end -->
                         </div>
-                        <p class="mb-0">Foundation was established with a small idea that was incepted in the
-                            minds of its promoters in the year 1994! We skillfully guide applicants for their
-                            immigration process to any country they aspire to settle. <a
-                                class="cmt-textcolor-skincolor" href="#">Read More</a></p>
                     </div>
                 </div>
             </div><!-- row end -->
@@ -266,7 +257,7 @@
                                             <p>For the persons whose jobs require a minimum work experience.</p>
                                         </div>
                                         <div class="cmt-di_links">
-                                            <a href="#" class="di_link">
+                                            <a href="/" class="di_link">
                                                 <i class="ti ti-angle-right"></i>
                                             </a>
                                             <span class="di_num">
@@ -294,7 +285,7 @@
                                             </p>
                                         </div>
                                         <div class="cmt-di_links">
-                                            <a href="#" class="di_link">
+                                            <a href="/" class="di_link">
                                                 <i class="ti ti-angle-right"></i>
                                             </a>
                                             <span class="di_num">
@@ -322,7 +313,7 @@
                                                 nicely.</p>
                                         </div>
                                         <div class="cmt-di_links">
-                                            <a href="#" class="di_link">
+                                            <a href="/" class="di_link">
                                                 <i class="ti ti-angle-right"></i>
                                             </a>
                                             <span class="di_num">
@@ -350,7 +341,7 @@
                                                 students.</p>
                                         </div>
                                         <div class="cmt-di_links">
-                                            <a href="#" class="di_link">
+                                            <a href="/" class="di_link">
                                                 <i class="ti ti-angle-right"></i>
                                             </a>
                                             <span class="di_num">
@@ -383,17 +374,7 @@
                         <img class="img-fluid w-100" src="images/single-img-04.jpg" alt="single_04">
                         <!--featured-icon-box-->
                         <div class="featured-icon-box icon-align-top-content cmt-bgcolor-darkgrey style2">
-                            <div class="featured-content">
-                                <div class="featured-title">
-                                    <h5>Coaching Test <span class="cmt-textcolor-skincolor"> Preparation</span>
-                                        Series</h5>
-                                </div>
-                                <div class="featured-desc">
-                                    <p>Free Guid To A Top Line Band Score!</p>
-                                </div>
-                            </div>
-                            <a class="cmt-btn cmt-btn-size-sm cmt-icon-btn-left btn-inline cmt-btn-color-skincolor"
-                                href="#" tabindex="0"><i class="fa fa-minus"></i>View More Details</a>
+                            
                         </div><!-- featured-icon-box end-->
                     </div>
                 </div>
@@ -402,9 +383,8 @@
                         <!-- section title -->
                         <div class="section-title">
                             <div class="title-header">
-                                <h5>value for visa coaching</h5>
-                                <h2 class="title">benifits of visa online <strong>coaching &
-                                        preparation</strong></h2>
+                                <h5>{$langStore.LANG.HOME.BENEFITS.SUBTITLE}</h5>
+                                <h2 class="title">{$langStore.LANG.HOME.BENEFITS.TITLE} <strong>{$langStore.LANG.HOME.BENEFITS.TITLE_2}</strong></h2>
                             </div>
                         </div><!-- section title end -->
                         <div class="row">
@@ -419,10 +399,9 @@
                                     </div>
                                     <div class="featured-content">
                                         <div class="featured-title">
-                                            <h5><a href="#">TOEFL</a></h5>
-                                        </div>
+                                            <h5>{$langStore.LANG.HOME.BENEFITS.ONE.TITLE}</h5> </div>
                                         <div class="featured-desc">
-                                            <p>scoring parameters in each of the modules.</p>
+                                            <p>{$langStore.LANG.HOME.BENEFITS.ONE.TEXT}</p>
                                         </div>
                                     </div>
                                 </div><!-- featured-icon-box end-->
@@ -438,10 +417,10 @@
                                     </div>
                                     <div class="featured-content">
                                         <div class="featured-title">
-                                            <h5><a href="#">PTE coaching</a></h5>
+                                            <h5>{$langStore.LANG.HOME.BENEFITS.TWO.TITLE}</h5>
                                         </div>
                                         <div class="featured-desc">
-                                            <p>we provide PTE online coaching classes.</p>
+                                            <p>{$langStore.LANG.HOME.BENEFITS.TWO.TEXT}</p>
                                         </div>
                                     </div>
                                 </div><!-- featured-icon-box end-->
@@ -457,10 +436,10 @@
                                     </div>
                                     <div class="featured-content">
                                         <div class="featured-title">
-                                            <h5><a href="#">IELTS coaching</a></h5>
+                                            <h5>{$langStore.LANG.HOME.BENEFITS.THREE.TITLE}</h5>
                                         </div>
                                         <div class="featured-desc">
-                                            <p>scoring method the bond of 0-9.</p>
+                                            <p>{$langStore.LANG.HOME.BENEFITS.TWO.TEXT}</p>
                                         </div>
                                     </div>
                                 </div><!-- featured-icon-box end-->
@@ -476,10 +455,9 @@
                                     </div>
                                     <div class="featured-content">
                                         <div class="featured-title">
-                                            <h5><a href="#">GMAT</a></h5>
-                                        </div>
+                                            <h5>{$langStore.LANG.HOME.BENEFITS.FOUR.TITLE} </div>
                                         <div class="featured-desc">
-                                            <p>master in management or business oriented studies.</p>
+                                            <p>{$langStore.LANG.HOME.BENEFITS.FOUR.TEXT}</p>
                                         </div>
                                     </div>
                                 </div><!-- featured-icon-box end-->
