@@ -9,10 +9,11 @@ export const INFO_COMPANY = {
     COUNTRY: 'United States',
     CITY: '',
     SCHEDULE: '',
+    
 }
 export const MENU = [
     {
-        name: 'Inicio',
+        name: 'Home',
         path: '/',
     },
     {
