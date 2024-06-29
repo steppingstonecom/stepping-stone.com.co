@@ -1,3 +1,7 @@
+<script>
+	import langStore from "$lib/stores/langStore";
+
+</script>
 
         <!-- page-title -->
         <div class="cmt-page-title-row">
@@ -6,14 +10,14 @@
                     <div class="row align-items-center">
                         <div class="col-lg-12">
                             <div class="page-title-heading">
-                                <h2 class="title">About Our Visa Consultancy</h2>
-                                <p>Founded In 1996 New York,USA</p>
+                                <h2 class="title">{$langStore.LANG.ABOUT.TITLE}</h2>
+                                <p></p>
                             </div>
                             <div class="breadcrumb-wrapper">
                                 <span>
-                                    <a title="Homepage" href="/">Home</a>
+                                    <a title="Homepage" href="/">{$langStore.LANG.HOME}</a>
                                 </span>
-                                <span>About Us</span>
+                                <span>{$langStore.LANG.ABOUT.TITLE}</span>
                             </div>
                         </div>
                     </div>
@@ -50,11 +54,11 @@
                             <!-- section title -->
                             <div class="section-title">
                                 <div class="title-header">
-                                    <h5>why choose us</h5>
-                                    <h2 class="title">Why Choose <strong>Tripzia Visa Consultancy?</strong></h2>
+                                    <h5>{$langStore.LANG.ABOUT.WHY}</h5>
+                                    <h2 class="title">{$langStore.LANG.ABOUT.TITLE_MAIN} <strong> {$langStore.LANG.ABOUT.TITLE_MAIN_2}</strong></h2>
                                 </div>
                             </div><!-- section title end -->
-                            <p>Foundation was established with a small idea that was incepted in the minds of its promoters in the year 1994! We skillfully guide the applicants for their immigration process to any country they aspire to settle. </p>
+                            <p>{$langStore.LANG.ABOUT.ABOUT}</p>
                             <div class="pt-10 pr-15 res-991-pr-0">
                                 <!-- featured-icon-box -->
                                 <div class="featured-icon-box icon-align-before-content style2">
@@ -65,10 +69,10 @@
                                     </div>
                                     <div class="featured-content">
                                         <div class="featured-title">
-                                            <h5><a href="#">Accurate Guidance</a></h5>
+                                            <h5>{$langStore.LANG.ABOUT.CHARACTERISTIC_1.TITLE}</h5>
                                         </div>
                                         <div class="featured-desc">
-                                            <p>Skilled professionals are always ready to provide reliable services to our clients!</p>
+                                            <p>{$langStore.LANG.ABOUT.CHARACTERISTIC_1.TEXT}</p>
                                         </div>
                                     </div>
                                 </div><!-- featured-icon-box end -->
@@ -81,23 +85,48 @@
                                     </div>
                                     <div class="featured-content">
                                         <div class="featured-title">
-                                            <h5><a href="#">Our Presence</a></h5>
+                                            <h5>{$langStore.LANG.ABOUT.CHARACTERISTIC_1.TITLE}</h5>
                                         </div>
                                         <div class="featured-desc">
-                                            <p>Branches are situated in major metro cities and overseas, always open for you!</p>
+                                            <p>{$langStore.LANG.ABOUT.CHARACTERISTIC_1.TEXT}</p>
                                         </div>
                                     </div>
-                                </div><!-- featured-icon-box end -->
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div><!-- row end -->
+                </div>
             </div>
         </section>
-        <!--about-section end-->
 
-
-        <!--broken-section-->
+        <section class="cmt-row about_2-section clearfix">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-6 col-lg-6 col-md-12 col-xs-12">
+                        <div class="pt-15 pr-30 mb_30 res-991-pr-0 res-991-pt-30">
+                            <div class="section-title">
+                                <div class="title-header">
+                                    <h5>{$langStore.LANG.ABOUT.MISSION.SUBTITLE}</h5>
+                                    <h2 class="title">{$langStore.LANG.ABOUT.MISSION.OUR} <strong>{$langStore.LANG.ABOUT.MISSION.TITLE}</strong></h2>
+                                </div>
+                            </div>
+                            <p>{$langStore.LANG.ABOUT.MISSION.TEXT}</p>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-6 col-md-12 col-xs-12">
+                        <div class="pt-15 pr-30 mb_30 res-991-pr-0 res-991-pt-30">
+                            <div class="section-title">
+                                <div class="title-header">
+                                    <h5>{$langStore.LANG.ABOUT.VISION.SUBTITLE}</h5>
+                                    <h2 class="title">{$langStore.LANG.ABOUT.VISION.OUR} <strong>{$langStore.LANG.ABOUT.VISION.TITLE}</strong></h2>
+                                </div>
+                            </div>
+                            <p>{$langStore.LANG.ABOUT.VISION.TEXT}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
         <section class="cmt-row broken-section bg-layer-equal-height clearfix">
             <div class="container">
                 <div class="row no-gutters">
@@ -109,15 +138,15 @@
                                     <!-- section title -->
                                     <div class="section-title">
                                         <div class="title-header">
-                                            <h5>ABOUT consultant</h5>
-                                            <h2 class="title">Immigration Services From <strong>Experienced Agents.</strong></h2>
+                                            <h5>{$langStore.LANG.ABOUT.CONSULTANT.TITLE}</h5>
+                                            <h2 class="title">{$langStore.LANG.ABOUT.CONSULTANT.SUBTITLE}</h2>
                                         </div>
                                     </div><!-- section title end -->
-                                    <p>Foundation was established with a small idea that was incepted in the minds of its promoters in the year 1994! We skillfully guide applicants for their immigration process to any country they aspire to settle. <a class="cmt-textcolor-skincolor" href="#">Read More</a></p>
+                                    <p>{$langStore.LANG.ABOUT.CONSULTANT.TEXT}</p>
                                     <div class="pt-10">
                                         <!-- cmt-progress-bar -->
                                         <div class="cmt-progress-bar" data-percent="92%">
-                                            <div class="progressbar-title">Immigration Consultant</div>
+                                            <div class="progressbar-title">{$langStore.LANG.ABOUT.CONSULTANT.CHARACTERISTIC_1}</div>
                                             <div class="progress-bar-inner">
                                                 <div class="progress-bar progress-bar-color-bar_skincolor"></div>
                                             </div>
@@ -125,7 +154,7 @@
                                         </div><!-- cmt-progress-bar end -->
                                         <!-- cmt-progress-bar -->
                                         <div class="cmt-progress-bar clearfix" data-percent="80%">
-                                            <div class="progressbar-title">Study and work visa</div>
+                                            <div class="progressbar-title">{$langStore.LANG.ABOUT.CONSULTANT.CHARACTERISTIC_2}</div>
                                             <div class="progress-bar-inner">
                                                 <div class="progress-bar progress-bar-color-bar_skincolor"></div>
                                             </div>
@@ -133,7 +162,7 @@
                                         </div><!-- cmt-progress-bar end -->
                                         <!-- cmt-progress-bar -->
                                         <div class="cmt-progress-bar clearfix" data-percent="88%">
-                                            <div class="progressbar-title">buisness visit visa</div>
+                                            <div class="progressbar-title">{$langStore.LANG.ABOUT.CONSULTANT.CHARACTERISTIC_3}</div>
                                             <div class="progress-bar-inner">
                                                 <div class="progress-bar progress-bar-color-bar_skincolor"></div>
                                             </div>
@@ -153,10 +182,10 @@
                                     <div class="cmt-bgcolor-skincolor d-flex flex-column h-100 justify-content-between featured-icon-box icon-align-top-content style7">
                                         <div class="featured-content cmt-bgcolor-skincolor bor_rad_5">
                                             <div class="featured-title">
-                                                <h5>The Future Of Bussiness <strong>Visa Consulting.</strong></h5>
+                                               
                                             </div>
                                         </div>
-                                        <a class="cmt-btn btn-inline cmt-btn-size-sm cmt-icon-btn-left cmt-btn-color-white" href="#" title=""><i class="fa fa-minus"></i>Contact us</a>
+                                        <a class="cmt-btn btn-inline cmt-btn-size-sm cmt-icon-btn-left cmt-btn-color-white" href="/contact" title=""><i class="fa fa-minus"></i>{$langStore.LANG.CONTACT.TITLE}</a>
                                     </div>
                                 </div>
                             </div>
@@ -165,554 +194,4 @@
                 </div><!-- row end -->
             </div>
         </section>
-        <!--broken-section end-->
-
-
-        <!--team-section-->
-        <section class="cmt-row team-section clearfix">
-            <div class="container">
-                <!-- section title -->
-                <div class="section-title title-style-center_text">
-                    <div class="title-header">
-                        <h5>Skillful Professionals</h5>
-                        <h2 class="title">Meet Our <strong>Dedicated Team!</strong></h2>
-                    </div>
-                </div><!-- section title end -->
-                <!-- row -->
-                <div class="row slick_slider">
-                    <div class="cmt-box-col-wrapper col-lg-4">
-                        <!-- featured-imagebox-team -->
-                        <div class="featured-imagebox featured-imagebox-team bor_rad_5">
-                            <div class="cmt-team-box-view-overlay">
-                                <div class="featured-iconbox cmt-media-link">
-                                    <div class="media-block">
-                                        <ul class="social-icons">
-                                            <li class="social-twitter"><a href="#"><i class="ti ti-twitter-alt"></i></a></li>
-                                            <li class="social-facebook"><a href="#"><i class="ti ti-facebook"></i></a></li>
-                                            <li class="social-instagram"><a href="#"><i class="ti ti-instagram"></i></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="featured-thumbnail">
-                                    <img class="img-fluid" src="images/team-member/team-img01.jpg" alt="image"> 
-                                </div>
-                            </div>
-                            <div class="featured-content featured-content-team">
-                                <div class="featured-title">
-                                    <h5><a href="/">Melika Fonals</a></h5>
-                                </div>
-                                <div class="team-position">Migration Agent</div>
-                            </div>
-                        </div><!-- featured-imagebox-team end-->
-                    </div>
-                    <div class="cmt-box-col-wrapper col-lg-4">
-                        <!-- featured-imagebox-team -->
-                        <div class="featured-imagebox featured-imagebox-team bor_rad_5">
-                            <div class="cmt-team-box-view-overlay">
-                                <div class="featured-iconbox cmt-media-link">
-                                    <div class="media-block">
-                                        <ul class="social-icons">
-                                            <li class="social-twitter"><a href="#"><i class="ti ti-twitter-alt"></i></a></li>
-                                            <li class="social-facebook"><a href="#"><i class="ti ti-facebook"></i></a></li>
-                                            <li class="social-instagram"><a href="#"><i class="ti ti-instagram"></i></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="featured-thumbnail">
-                                    <img class="img-fluid" src="images/team-member/team-img02.jpg" alt="image">
-                                </div>
-                            </div>
-                            <div class="featured-content featured-content-team">
-                                <div class="featured-title">
-                                    <h5><a href="/">Sophia Arthur</a></h5>
-                                </div>
-                                <div class="team-position">Migration Agent</div>
-                            </div>
-                        </div><!-- featured-imagebox-team end-->
-                    </div>
-                    <div class="cmt-box-col-wrapper col-lg-4">
-                        <!-- featured-imagebox-team -->
-                        <div class="featured-imagebox featured-imagebox-team bor_rad_5">
-                            <div class="cmt-team-box-view-overlay">
-                                <div class="featured-iconbox cmt-media-link">
-                                    <div class="media-block">
-                                        <ul class="social-icons">
-                                            <li class="social-twitter"><a href="#"><i class="ti ti-twitter-alt"></i></a></li>
-                                            <li class="social-facebook"><a href="#"><i class="ti ti-facebook"></i></a></li>
-                                            <li class="social-instagram"><a href="#"><i class="ti ti-instagram"></i></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="featured-thumbnail">
-                                    <img class="img-fluid" src="images/team-member/team-img03.jpg" alt="image"> 
-                                </div>
-                            </div>
-                            <div class="featured-content featured-content-team">
-                                <div class="featured-title">
-                                    <h5><a href="/">Robert Walter</a></h5>
-                                </div>
-                                <div class="team-position">Migration Agent</div>
-                            </div>
-                        </div><!-- featured-imagebox-team end-->
-                    </div>
-                    <div class="cmt-box-col-wrapper col-lg-4">
-                        <!-- featured-imagebox-team -->
-                        <div class="featured-imagebox featured-imagebox-team bor_rad_5">
-                            <div class="cmt-team-box-view-overlay">
-                                <div class="featured-iconbox cmt-media-link">
-                                    <div class="media-block">
-                                        <ul class="social-icons">
-                                            <li class="social-twitter"><a href="#"><i class="ti ti-twitter-alt"></i></a></li>
-                                            <li class="social-facebook"><a href="#"><i class="ti ti-facebook"></i></a></li>
-                                            <li class="social-instagram"><a href="#"><i class="ti ti-instagram"></i></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="featured-thumbnail">
-                                    <img class="img-fluid" src="images/team-member/team-img04.jpg" alt="image"> 
-                                </div>
-                            </div>
-                            <div class="featured-content featured-content-team">
-                                <div class="featured-title">
-                                    <h5><a href="/">Michael Grey</a></h5>
-                                </div>
-                                <div class="team-position">Migration Agent</div>
-                            </div>
-                        </div><!-- featured-imagebox-team end-->
-                    </div>
-                    <div class="cmt-box-col-wrapper col-lg-4">
-                        <!-- featured-imagebox-team -->
-                        <div class="featured-imagebox featured-imagebox-team bor_rad_5">
-                            <div class="cmt-team-box-view-overlay">
-                                <div class="featured-iconbox cmt-media-link">
-                                    <div class="media-block">
-                                        <ul class="social-icons">
-                                            <li class="social-twitter"><a href="#"><i class="ti ti-twitter-alt"></i></a></li>
-                                            <li class="social-facebook"><a href="#"><i class="ti ti-facebook"></i></a></li>
-                                            <li class="social-instagram"><a href="#"><i class="ti ti-instagram"></i></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="featured-thumbnail">
-                                    <img class="img-fluid" src="images/team-member/team-img05.jpg" alt="image"> 
-                                </div>
-                            </div>
-                            <div class="featured-content featured-content-team">
-                                <div class="featured-title">
-                                    <h5><a href="/">John Doe</a></h5>
-                                </div>
-                                <div class="team-position">Migration Agent</div>
-                            </div>
-                        </div><!-- featured-imagebox-team end-->
-                    </div>
-                </div><!-- row end -->
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="mt-35 text-center res-991-mt-20">
-                            <a class="cmt-btn cmt-btn-size-md cmt-btn-shape-round cmt-btn-style-border cmt-btn-color-dark" href="#">View more taem!</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!--team-section end-->
-
-
-        <!--testimonial-section-->
-        <section class="cmt-row testimonial-section cmt-bgcolor-grey clearfix">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xl-6 col-xs-12">
-                        <div class="pt-65 res-1199-pt-0">
-                            <!-- section title -->
-                            <div class="section-title">
-                                <div class="title-header">
-                                    <h5>ABOUT AGENCY</h5>
-                                    <h2 class="title">Immigration Services From <strong>Experienced Agents.</strong></h2>
-                                </div>
-                            </div><!-- section title end -->
-                            <p>Lorem Ipsum is simply dummy text of the printing ypesetting industry.Professor at Hampden-Sydney been tndustry dard dummy text ever since the 1500s, when aknown contary tonter.</p>
-                            <div class="featuredbox-number">
-                                <!--featured-icon-box-->
-                                <div class="featured-icon-box icon-align-before-content icon-ver_align-top style1">
-                                    <div class="featured-icon">
-                                        <div class="cmt-icon cmt-icon_element-fill cmt-icon_element-color-skincolor cmt-icon_element-size-xs cmt-icon_element-style-rounded"> 
-                                            <i class="cmt-num ti-info"></i>
-                                        </div>
-                                    </div>
-                                    <div class="featured-content">
-                                        <div class="featured-title">
-                                            <h5>We modify whole system</h5>
-                                        </div>
-                                        <div class="featured-desc">
-                                            <p>To guard, Avoid Revealing Too Much, Apply for a Provisional Patent, Trademark.</p>
-                                        </div>
-                                    </div>
-                                </div><!-- featured-icon-box end-->
-                                 <!--featured-icon-box-->
-                                <div class="featured-icon-box icon-align-before-content icon-ver_align-top style1">
-                                    <div class="featured-icon">
-                                        <div class="cmt-icon cmt-icon_element-fill cmt-icon_element-color-skincolor cmt-icon_element-size-xs cmt-icon_element-style-rounded"> 
-                                            <i class="cmt-num ti-info"></i>
-                                        </div>
-                                    </div>
-                                    <div class="featured-content">
-                                        <div class="featured-title">
-                                            <h5>Safeguard for Your Bussiness</h5>
-                                        </div>
-                                        <div class="featured-desc">
-                                            <p>To guard, Avoid Revealing Too Much, Apply for a Provisional Patent, Trademark.</p>
-                                        </div>
-                                    </div>
-                                </div><!-- featured-icon-box end-->
-                                 <!--featured-icon-box-->
-                                <div class="featured-icon-box icon-align-before-content icon-ver_align-top style1">
-                                    <div class="featured-icon">
-                                        <div class="cmt-icon cmt-icon_element-fill cmt-icon_element-color-skincolor cmt-icon_element-size-xs cmt-icon_element-style-rounded"> 
-                                            <i class="cmt-num ti-info"></i>
-                                        </div>
-                                    </div>
-                                    <div class="featured-content">
-                                        <div class="featured-title">
-                                            <h5>Beneficial Strategies </h5>
-                                        </div>
-                                        <div class="featured-desc">
-                                            <p>To guard, Avoid Revealing Too Much, Apply for a Provisional Patent, Trademark.</p>
-                                        </div>
-                                    </div>
-                                </div><!-- featured-icon-box end-->
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-6">
-                        <div class="testimonials-nav z-index-2" >
-                            <div class="testimonial-nav_item">
-                                <div class="nav_item">
-                                    <img class="img-fluid" src="images/testimonial/nav-01.jpg" alt="testimonial-nav_item">
-                                </div>
-                            </div>
-                            <div class="testimonial-nav_item">
-                                <div class="nav_item">
-                                    <img class="img-fluid" src="images/testimonial/nav-02.jpg" alt="testimonial-nav_item">
-                                </div>
-                            </div>
-                            <div class="testimonial-nav_item">
-                                <div class="nav_item">
-                                    <img class="img-fluid" src="images/testimonial/nav-03.jpg" alt="testimonial-nav_item">
-                                </div>
-                            </div>
-                            <div class="testimonial-nav_item">
-                                <div class="nav_item">
-                                    <img class="img-fluid" src="images/testimonial/nav-04.jpg" alt="testimonial-nav_item">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="cmt-col-bgcolor-yes cmt-bgcolor-skincolor cmt-col-bgimage-yes cmt-bg col-bg-img-one cmt-right-span cmt-bg-pattern spacing-1">
-                            <div class="cmt-col-wrapper-bg-layer cmt-bg-layer">
-                                <div class="cmt-col-wrapper-bg-layer-inner"></div>
-                            </div>
-                            <div class="layer-content">
-                                <div class="testimonials-info">
-                                    <!-- testimonials -->
-                                    <div class="testimonials">
-                                        <div class="testimonial-avatar">
-                                            <div class="testimonial-img">
-                                                <img class="img-fluid" src="images/testimonial/01.jpg" alt="testimonial-img">
-                                            </div>
-                                        </div>
-                                        <div class="testimonial-content">
-                                            <blockquote class="testimonial-text">I really would like to appreciate Tripzia and the entire team, especially Ms Anandias Alex for helping me get my student visa for the Brunel University. She helped me all way to find the University & right course. She was there for me through the entire process.</blockquote>
-                                            <div class="testimonial-bottom">
-                                                <div class="testimonial-caption cmt-textcolor-white">
-                                                    <h5>RAshley Foster</h5>
-                                                    <label>(CEO 7 Founder)</label>
-                                                </div>
-                                                <div class="star-ratings">
-                                                    <ul class="rating">
-                                                        <li><i class="fa fa-star"></i></li>
-                                                        <li><i class="fa fa-star"></i></li>
-                                                        <li><i class="fa fa-star-o"></i></li>
-                                                        <li><i class="fa fa-star-o"></i></li>
-                                                        <li><i class="fa fa-star-o"></i></li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div><!-- testimonials end -->
-                                    <!-- testimonials -->
-                                    <div class="testimonials"> 
-                                        <div class="testimonial-avatar">
-                                            <div class="testimonial-img">
-                                                <img class="img-fluid" src="images/testimonial/02.jpg" alt="testimonial-img">
-                                            </div>
-                                        </div>
-                                        <div class="testimonial-content">
-                                            <blockquote class="testimonial-text">I really would like to appreciate Tripzia and the entire team, especially Ms Anandias Alex for helping me get my student visa for the Brunel University. She helped me all way to find the University & right course. She was there for me through the entire process.</blockquote>
-                                            <div class="testimonial-bottom">
-                                                <div class="testimonial-caption cmt-textcolor-white">
-                                                    <h5>Alan Sears</h5>
-                                                    <label>(CEO 7 Founder)</label>
-                                                </div>
-                                                <div class="star-ratings">
-                                                    <ul class="rating">
-                                                        <li><i class="fa fa-star"></i></li>
-                                                        <li><i class="fa fa-star"></i></li>
-                                                        <li><i class="fa fa-star-o"></i></li>
-                                                        <li><i class="fa fa-star-o"></i></li>
-                                                        <li><i class="fa fa-star-o"></i></li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div><!-- testimonials end -->
-                                    <!-- testimonials -->
-                                    <div class="testimonials"> 
-                                        <div class="testimonial-avatar">
-                                            <div class="testimonial-img">
-                                                <img class="img-fluid" src="images/testimonial/03.jpg" alt="testimonial-img">
-                                            </div>
-                                        </div>
-                                        <div class="testimonial-content">
-                                            <blockquote class="testimonial-text">I really would like to appreciate Tripzia and the entire team, especially Ms Anandias Alex for helping me get my student visa for the Brunel University. She helped me all way to find the University & right course. She was there for me through the entire process.</blockquote>
-                                            <div class="testimonial-bottom">
-                                                <div class="testimonial-caption cmt-textcolor-white">
-                                                    <h5>Raymon Myers</h5>
-                                                    <label>(CEO 7 Founder)</label>
-                                                </div>
-                                                <div class="star-ratings">
-                                                    <ul class="rating">
-                                                        <li><i class="fa fa-star"></i></li>
-                                                        <li><i class="fa fa-star"></i></li>
-                                                        <li><i class="fa fa-star-o"></i></li>
-                                                        <li><i class="fa fa-star-o"></i></li>
-                                                        <li><i class="fa fa-star-o"></i></li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div><!-- testimonials end -->
-                                    <!-- testimonials -->
-                                    <div class="testimonials"> 
-                                        <div class="testimonial-avatar">
-                                            <div class="testimonial-img">
-                                                <img class="img-fluid" src="images/testimonial/04.jpg" alt="testimonial-img">
-                                            </div>
-                                        </div>
-                                        <div class="testimonial-content">
-                                            <blockquote class="testimonial-text">I really would like to appreciate Tripzia and the entire team, especially Ms Anandias Alex for helping me get my student visa for the Brunel University. She helped me all way to find the University & right course. She was there for me through the entire process.</blockquote>
-                                            <div class="testimonial-bottom">
-                                                <div class="testimonial-caption cmt-textcolor-white">
-                                                    <h5>Jhon Martin</h5>
-                                                    <label>(CEO 7 Founder)</label>
-                                                </div>
-                                                <div class="star-ratings">
-                                                    <ul class="rating">
-                                                        <li><i class="fa fa-star"></i></li>
-                                                        <li><i class="fa fa-star"></i></li>
-                                                        <li><i class="fa fa-star-o"></i></li>
-                                                        <li><i class="fa fa-star-o"></i></li>
-                                                        <li><i class="fa fa-star-o"></i></li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div><!-- testimonials end -->
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!--testimonial-section end-->
-
-
-        <!--blog-section-->
-        <section class="cmt-row blog-section clearfix">
-            <div class="container">
-                <!-- row -->
-                <div class="row align-items-center">
-                    <div class="col-xl-9 col-lg-9 col-md-12">
-                        <!-- section title -->
-                        <div class="section-title">
-                            <div class="title-header">
-                                <h5>our latest news/blog</h5>
-                                <h2 class="title">our work business <strong>innovation!</strong></h2>
-                            </div>
-                        </div><!-- section title end -->
-                    </div>
-                    <div class="col-xl-3 col-lg-3 col-md-12">
-                        <a class="cmt-btn cmt-btn-size-md cmt-btn-shape-round cmt-btn-style-border cmt-btn-color-dark mb-30 float-lg-right" href="#">View More News</a>
-                    </div>
-                </div><!-- row end -->
-                <!-- slick_slider -->
-                <div class="row slick_slider mt-15" >
-                    <div class="cmt-box-col-wrapper col-lg-12">
-                        <!-- featured-imagebox-post -->
-                        <div class="featured-imagebox featured-imagebox-post style3">
-                            <div class="cmt-post-thumbnail featured-thumbnail"> 
-                                <img class="img-fluid" src="images/blog/blog-one-720X620.jpg" alt="image">
-                            </div>
-                            <div class="featured-content featured-content-post">
-                                <div class="post-header">
-                                    <div class="post-title featured-title">
-                                        <h5><a href="/">Why Indian Students Choose To Study Abroad?</a></h5>
-                                    </div>
-                                </div>
-                                <div class="post-meta">
-                                    <span class="cmt-meta-line byline">
-                                        <img class="img-fluid" src="images/blog/b_thumbb-01.jpg" alt="post-img /">Admin
-                                    </span>
-                                    <span class="cmt-meta-line post-date"><i class="fa fa-calendar"></i>12 April 2020</span>
-                                </div>
-                                <div class="post-desc featured-desc">
-                                    <p>Many young Indian students today wish to pursue their studies in universities abroad.</p>
-                                </div>
-                                <div class="post-bottom cmt-post-link">
-                                    <a class="cmt-btn cmt-btn-size-sm cmt-icon-btn-left cmt-btn-color-skincolor btn-inline" href="/" tabindex="0"><i class="fa fa-minus"></i>Read more</a>
-                                </div>
-                            </div>
-                        </div><!-- featured-imagebox-post end-->
-                    </div>
-                    <div class="cmt-box-col-wrapper col-lg-12">
-                        <!-- featured-imagebox-post -->
-                        <div class="featured-imagebox featured-imagebox-post style3">
-                            <div class="cmt-post-thumbnail featured-thumbnail"> 
-                                <img class="img-fluid" src="images/blog/blog-two-720X620.jpg" alt="image">
-                            </div>
-                            <div class="featured-content featured-content-post">
-                                <div class="post-header">
-                                    <div class="post-title featured-title">
-                                        <h5><a href="/">To Improve Your Express Entry Application</a></h5>
-                                    </div>
-                                </div>
-                                <div class="post-meta">
-                                    <span class="cmt-meta-line byline">
-                                        <img class="img-fluid" src="images/blog/b_thumbb-02.jpg" alt="post-img /">Admin
-                                    </span>
-                                    <span class="cmt-meta-line post-date"><i class="fa fa-calendar"></i>12 April 2020</span>
-                                </div>
-                                <div class="post-desc featured-desc">
-                                    <p>Three things you can do right now to improve all from the comfort of your own home</p>
-                                </div>
-                                <div class="post-bottom cmt-post-link">
-                                    <a class="cmt-btn cmt-btn-size-sm cmt-icon-btn-left cmt-btn-color-skincolor btn-inline" href="/" tabindex="0"><i class="fa fa-minus"></i>Read more</a>
-                                </div>
-                            </div>
-                        </div><!-- featured-imagebox-post end-->
-                    </div>
-                    <div class="cmt-box-col-wrapper col-lg-12">
-                        <!-- featured-imagebox-post -->
-                        <div class="featured-imagebox featured-imagebox-post style3">
-                            <div class="cmt-post-thumbnail featured-thumbnail"> 
-                                <img class="img-fluid" src="images/blog/blog-three-720X620.jpg" alt="image">
-                            </div>
-                            <div class="featured-content featured-content-post">
-                                <div class="post-header">
-                                    <div class="post-title featured-title">
-                                        <h5><a href="/">Employment Insurance for Foreign Nationals</a></h5>
-                                    </div>
-                                </div>
-                                <div class="post-meta">
-                                    <span class="cmt-meta-line byline">
-                                        <img class="img-fluid" src="images/blog/b_thumbb-03.jpg" alt="post-img /">Admin
-                                    </span>
-                                    <span class="cmt-meta-line post-date"><i class="fa fa-calendar"></i>12 April 2020</span>
-                                </div>
-                                <div class="post-desc featured-desc">
-                                    <p>EI system includes all citizens, permanent residents & foreigners on work permits</p>
-                                </div>
-                                <div class="post-bottom cmt-post-link">
-                                    <a class="cmt-btn cmt-btn-size-sm cmt-icon-btn-left cmt-btn-color-skincolor btn-inline" href="/" tabindex="0"><i class="fa fa-minus"></i>Read more</a>
-                                </div>
-                            </div>
-                        </div><!-- featured-imagebox-post end-->
-                    </div>
-                    <div class="cmt-box-col-wrapper col-lg-12">
-                        <!-- featured-imagebox-post -->
-                        <div class="featured-imagebox featured-imagebox-post style3">
-                            <div class="cmt-post-thumbnail featured-thumbnail"> 
-                                <img class="img-fluid" src="images/blog/blog-four-720X620.jpg" alt="image">
-                            </div>
-                            <div class="featured-content featured-content-post">
-                                <div class="post-header">
-                                    <div class="post-title featured-title">
-                                        <h5><a href="/">You Will Become As Small Your Desire.</a></h5>
-                                    </div>
-                                </div>
-                                <div class="post-meta">
-                                    <span class="cmt-meta-line byline">
-                                        <img class="img-fluid" src="images/blog/b_thumbb-04.jpg" alt="post-img /">Admin
-                                    </span>
-                                    <span class="cmt-meta-line post-date"><i class="fa fa-calendar"></i>12 April 2020</span>
-                                </div>
-                                <div class="post-desc featured-desc">
-                                    <p>We have a wide range of the bow ties which fit everyday the fashion as a special.</p>
-                                </div>
-                                <div class="post-bottom cmt-post-link">
-                                    <a class="cmt-btn cmt-btn-size-sm cmt-icon-btn-left cmt-btn-color-skincolor btn-inline" href="/" tabindex="0"><i class="fa fa-minus"></i>Read more</a>
-                                </div>
-                            </div>
-                        </div><!-- featured-imagebox-post end-->
-                    </div>
-                    <div class="cmt-box-col-wrapper col-lg-12">
-                        <!-- featured-imagebox-post -->
-                        <div class="featured-imagebox featured-imagebox-post style3">
-                            <div class="cmt-post-thumbnail featured-thumbnail"> 
-                                <img class="img-fluid" src="images/blog/blog-five-720X620.jpg" alt="image">
-                            </div>
-                            <div class="featured-content featured-content-post">
-                                <div class="post-header">
-                                    <div class="post-title featured-title">
-                                        <h5><a href="/">To Improve Your Express Entry Application</a></h5>
-                                    </div>
-                                </div>
-                                <div class="post-meta">
-                                    <span class="cmt-meta-line byline">
-                                        <img class="img-fluid" src="images/blog/b_thumbb-05.jpg" alt="post-img /">Admin
-                                    </span>
-                                    <span class="cmt-meta-line post-date"><i class="fa fa-calendar"></i>12 April 2020</span>
-                                </div>
-                                <div class="post-desc featured-desc">
-                                    <p>Three things you can do right now to improve all from the comfort of your own home</p>
-                                </div>
-                                <div class="post-bottom cmt-post-link">
-                                    <a class="cmt-btn cmt-btn-size-sm cmt-icon-btn-left cmt-btn-color-skincolor btn-inline" href="/" tabindex="0"><i class="fa fa-minus"></i>Read more</a>
-                                </div>
-                            </div>
-                        </div><!-- featured-imagebox-post end-->
-                    </div>
-                    <div class="cmt-box-col-wrapper col-lg-12">
-                        <!-- featured-imagebox-post -->
-                        <div class="featured-imagebox featured-imagebox-post style3">
-                            <div class="cmt-post-thumbnail featured-thumbnail"> 
-                                <img class="img-fluid" src="images/blog/blog-six-720X620.jpg" alt="image">
-                            </div>
-                            <div class="featured-content featured-content-post">
-                                <div class="post-header">
-                                    <div class="post-title featured-title">
-                                        <h5><a href="/">Employment Insurance for Foreign Nationals</a></h5>
-                                    </div>
-                                </div>
-                                <div class="post-meta">
-                                    <span class="cmt-meta-line byline">
-                                        <img class="img-fluid" src="images/blog/b_thumbb-06.jpg" alt="post-img /">Admin
-                                    </span>
-                                    <span class="cmt-meta-line post-date"><i class="fa fa-calendar"></i>12 April 2020</span>
-                                </div>
-                                <div class="post-desc featured-desc">
-                                    <p>EI system includes all citizens, permanent residents & foreigners on work permits.</p>
-                                </div>
-                                <div class="post-bottom cmt-post-link">
-                                    <a class="cmt-btn cmt-btn-size-sm cmt-icon-btn-left cmt-btn-color-skincolor btn-inline" href="/" tabindex="0"><i class="fa fa-minus"></i>Read more</a>
-                                </div>
-                            </div>
-                        </div><!-- featured-imagebox-post end-->
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!--blog-section end-->
-
-
-    </div><!--site-main end-->
+    </div>
