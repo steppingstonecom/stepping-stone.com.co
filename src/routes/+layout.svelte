@@ -303,7 +303,7 @@
 				</div>
 			</div>
 		</footer>
-		<a id="totop" href="#top">
+		<a id="totop" >
 			<i class="fa fa-angle-up"></i>
 		</a>
 	</div>
