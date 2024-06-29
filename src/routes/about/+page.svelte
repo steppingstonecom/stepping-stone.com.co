@@ -556,7 +556,7 @@
                             <div class="featured-content featured-content-post">
                                 <div class="post-header">
                                     <div class="post-title featured-title">
-                                        <h5><a href="blog-single.html">Why Indian Students Choose To Study Abroad?</a></h5>
+                                        <h5><a href="/">Why Indian Students Choose To Study Abroad?</a></h5>
                                     </div>
                                 </div>
                                 <div class="post-meta">
@@ -569,7 +569,7 @@
                                     <p>Many young Indian students today wish to pursue their studies in universities abroad.</p>
                                 </div>
                                 <div class="post-bottom cmt-post-link">
-                                    <a class="cmt-btn cmt-btn-size-sm cmt-icon-btn-left cmt-btn-color-skincolor btn-inline" href="blog-single.html" tabindex="0"><i class="fa fa-minus"></i>Read more</a>
+                                    <a class="cmt-btn cmt-btn-size-sm cmt-icon-btn-left cmt-btn-color-skincolor btn-inline" href="/" tabindex="0"><i class="fa fa-minus"></i>Read more</a>
                                 </div>
                             </div>
                         </div><!-- featured-imagebox-post end-->
@@ -583,7 +583,7 @@
                             <div class="featured-content featured-content-post">
                                 <div class="post-header">
                                     <div class="post-title featured-title">
-                                        <h5><a href="blog-single.html">To Improve Your Express Entry Application</a></h5>
+                                        <h5><a href="/">To Improve Your Express Entry Application</a></h5>
                                     </div>
                                 </div>
                                 <div class="post-meta">
@@ -596,7 +596,7 @@
                                     <p>Three things you can do right now to improve all from the comfort of your own home</p>
                                 </div>
                                 <div class="post-bottom cmt-post-link">
-                                    <a class="cmt-btn cmt-btn-size-sm cmt-icon-btn-left cmt-btn-color-skincolor btn-inline" href="blog-single.html" tabindex="0"><i class="fa fa-minus"></i>Read more</a>
+                                    <a class="cmt-btn cmt-btn-size-sm cmt-icon-btn-left cmt-btn-color-skincolor btn-inline" href="/" tabindex="0"><i class="fa fa-minus"></i>Read more</a>
                                 </div>
                             </div>
                         </div><!-- featured-imagebox-post end-->
@@ -610,7 +610,7 @@
                             <div class="featured-content featured-content-post">
                                 <div class="post-header">
                                     <div class="post-title featured-title">
-                                        <h5><a href="blog-single.html">Employment Insurance for Foreign Nationals</a></h5>
+                                        <h5><a href="/">Employment Insurance for Foreign Nationals</a></h5>
                                     </div>
                                 </div>
                                 <div class="post-meta">
@@ -623,7 +623,7 @@
                                     <p>EI system includes all citizens, permanent residents & foreigners on work permits</p>
                                 </div>
                                 <div class="post-bottom cmt-post-link">
-                                    <a class="cmt-btn cmt-btn-size-sm cmt-icon-btn-left cmt-btn-color-skincolor btn-inline" href="blog-single.html" tabindex="0"><i class="fa fa-minus"></i>Read more</a>
+                                    <a class="cmt-btn cmt-btn-size-sm cmt-icon-btn-left cmt-btn-color-skincolor btn-inline" href="/" tabindex="0"><i class="fa fa-minus"></i>Read more</a>
                                 </div>
                             </div>
                         </div><!-- featured-imagebox-post end-->
@@ -637,7 +637,7 @@
                             <div class="featured-content featured-content-post">
                                 <div class="post-header">
                                     <div class="post-title featured-title">
-                                        <h5><a href="blog-single.html">You Will Become As Small Your Desire.</a></h5>
+                                        <h5><a href="/">You Will Become As Small Your Desire.</a></h5>
                                     </div>
                                 </div>
                                 <div class="post-meta">
@@ -650,7 +650,7 @@
                                     <p>We have a wide range of the bow ties which fit everyday the fashion as a special.</p>
                                 </div>
                                 <div class="post-bottom cmt-post-link">
-                                    <a class="cmt-btn cmt-btn-size-sm cmt-icon-btn-left cmt-btn-color-skincolor btn-inline" href="blog-single.html" tabindex="0"><i class="fa fa-minus"></i>Read more</a>
+                                    <a class="cmt-btn cmt-btn-size-sm cmt-icon-btn-left cmt-btn-color-skincolor btn-inline" href="/" tabindex="0"><i class="fa fa-minus"></i>Read more</a>
                                 </div>
                             </div>
                         </div><!-- featured-imagebox-post end-->
@@ -664,7 +664,7 @@
                             <div class="featured-content featured-content-post">
                                 <div class="post-header">
                                     <div class="post-title featured-title">
-                                        <h5><a href="blog-single.html">To Improve Your Express Entry Application</a></h5>
+                                        <h5><a href="/">To Improve Your Express Entry Application</a></h5>
                                     </div>
                                 </div>
                                 <div class="post-meta">
@@ -677,7 +677,7 @@
                                     <p>Three things you can do right now to improve all from the comfort of your own home</p>
                                 </div>
                                 <div class="post-bottom cmt-post-link">
-                                    <a class="cmt-btn cmt-btn-size-sm cmt-icon-btn-left cmt-btn-color-skincolor btn-inline" href="blog-single.html" tabindex="0"><i class="fa fa-minus"></i>Read more</a>
+                                    <a class="cmt-btn cmt-btn-size-sm cmt-icon-btn-left cmt-btn-color-skincolor btn-inline" href="/" tabindex="0"><i class="fa fa-minus"></i>Read more</a>
                                 </div>
                             </div>
                         </div><!-- featured-imagebox-post end-->
@@ -691,7 +691,7 @@
                             <div class="featured-content featured-content-post">
                                 <div class="post-header">
                                     <div class="post-title featured-title">
-                                        <h5><a href="blog-single.html">Employment Insurance for Foreign Nationals</a></h5>
+                                        <h5><a href="/">Employment Insurance for Foreign Nationals</a></h5>
                                     </div>
                                 </div>
                                 <div class="post-meta">
@@ -704,7 +704,7 @@
                                     <p>EI system includes all citizens, permanent residents & foreigners on work permits.</p>
                                 </div>
                                 <div class="post-bottom cmt-post-link">
-                                    <a class="cmt-btn cmt-btn-size-sm cmt-icon-btn-left cmt-btn-color-skincolor btn-inline" href="blog-single.html" tabindex="0"><i class="fa fa-minus"></i>Read more</a>
+                                    <a class="cmt-btn cmt-btn-size-sm cmt-icon-btn-left cmt-btn-color-skincolor btn-inline" href="/" tabindex="0"><i class="fa fa-minus"></i>Read more</a>
                                 </div>
                             </div>
                         </div><!-- featured-imagebox-post end-->
