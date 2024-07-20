@@ -614,7 +614,12 @@ a, img{
 .mr_200{ margin-right: -200px !important; }
 .mr_240{ margin-right: -240px !important; }
 
-
+.cmt-textcolor-white2{
+    color: #fff !important;
+}
+.cmt-textcolor-white2:hover{
+    color: #ffffff !important;
+}
 
 /* ===============================================
     Color
