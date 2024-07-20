@@ -68,20 +68,7 @@ $(document).ready(function () {
                                         <nav class="main-menu menu-mobile" id="menu">
                                             <ul class="menu">
                                                 <li class="mega-menu-item active">
-                                                    <a href="#" class="mega-menu-link">Home</a>
-                                                    <ul class="mega-submenu">
-                                                        <li class="active"><a href="index.html">Homepage 1</a></li>
-                                                        <li><a href="home-2.html">Homepage 2</a></li>
-                                                        <li><a href="home-3.html">Homepage 3</a></li>
-                                                        <li class="mega-menu-item">
-                                                            <a href="#" class="mega-menu-link">Header Styles</a>
-                                                            <ul class="mega-submenu">
-                                                                <li><a href="index.html">Header Style 01</a></li>
-                                                                <li><a target="_blank" href="header-style-02.html">Header Style 02</a></li>
-                                                                <li><a target="_blank" href="header-style-03.html">Header Style 03</a></li>
-                                                            </ul>
-                                                        </li>
-                                                    </ul>
+                                                    <a href="/" class="mega-menu-link">Home</a>
                                                 </li>
                                                 <li class="mega-menu-item">
                                                     <a href="#" class="mega-menu-link">Visa</a>
@@ -98,7 +85,6 @@ $(document).ready(function () {
                                                     <a href="#" class="mega-menu-link">Country</a>
                                                     <ul class="mega-submenu">
                                                         <li><a href="canada.html">Canada</a></li>
-                                                        <li><a href="uk.html">UK</a></li>
                                                         <li><a href="usa.html">USA</a></li>
                                                         <li><a href="aus.html">Australia</a></li>
                                                         <li><a href="nz.html">New Zealand</a></li>
