@@ -1,6 +1,6 @@
 /** ==========================================================================================
 
-  Project :   stepping stone -Responsive Multi-purpose HTML5 Template
+  Project :   Stepping Stone -Responsive Multi-purpose HTML5 Template
   Author :    CymolThemes
 
 ========================================================================================== */
