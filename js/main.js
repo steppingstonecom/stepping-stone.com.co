@@ -1,6 +1,6 @@
 /** ==========================================================================================
 
-  Project :   Tripzia - Responsive Multi-purpose HTML5 Template
+  Project :   stepping stone -Responsive Multi-purpose HTML5 Template
   Author :    CymolThemes
 
 ========================================================================================== */
